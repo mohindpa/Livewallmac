@@ -27,58 +27,6 @@
       "downloadName": "silo_the_view_loop_4k.mp4"
     },
     {
-      "slug": "reactor-rain",
-      "title": "Reactor Rain",
-      "subtitle": "Two cracked cooling towers in the rain — beacons blinking, reactor heat still bleeding through the concrete.",
-      "duration": "10s",
-      "resolution": "3840 × 2160",
-      "size": "0.5 MB",
-      "accent": "#ff5a4a",
-      "poster": "assets/wallpapers/reactor-rain/poster.jpg",
-      "preview": "assets/wallpapers/reactor-rain/preview.mp4",
-      "download": "assets/wallpapers/reactor-rain/reactor-rain_loop_4k.mp4",
-      "downloadName": "reactor-rain_loop_4k.mp4"
-    },
-    {
-      "slug": "ghost-city",
-      "title": "Ghost City",
-      "subtitle": "A dead skyline in the smog, one neon sign still selling nothing, embers on the wind.",
-      "duration": "10s",
-      "resolution": "3840 × 2160",
-      "size": "0.6 MB",
-      "accent": "#ff5a9e",
-      "poster": "assets/wallpapers/ghost-city/poster.jpg",
-      "preview": "assets/wallpapers/ghost-city/preview.mp4",
-      "download": "assets/wallpapers/ghost-city/ghost-city_loop_4k.mp4",
-      "downloadName": "ghost-city_loop_4k.mp4"
-    },
-    {
-      "slug": "the-boneyard",
-      "title": "The Boneyard",
-      "subtitle": "Where the machines came to die. One still keeps its amber eye open.",
-      "duration": "10s",
-      "resolution": "3840 × 2160",
-      "size": "0.4 MB",
-      "accent": "#ffa53d",
-      "poster": "assets/wallpapers/the-boneyard/poster.jpg",
-      "preview": "assets/wallpapers/the-boneyard/preview.mp4",
-      "download": "assets/wallpapers/the-boneyard/the-boneyard_loop_4k.mp4",
-      "downloadName": "the-boneyard_loop_4k.mp4"
-    },
-    {
-      "slug": "orbital-window",
-      "title": "Orbital Window",
-      "subtitle": "A quiet station room looking down at a dead blue world. The status lights still blink.",
-      "duration": "10s",
-      "resolution": "3840 × 2160",
-      "size": "0.3 MB",
-      "accent": "#58d8e8",
-      "poster": "assets/wallpapers/orbital-window/poster.jpg",
-      "preview": "assets/wallpapers/orbital-window/preview.mp4",
-      "download": "assets/wallpapers/orbital-window/orbital-window_loop_4k.mp4",
-      "downloadName": "orbital-window_loop_4k.mp4"
-    },
-    {
       "slug": "terminal-86",
       "title": "Terminal 86",
       "subtitle": "A server room running on fumes — racks blinking, one screen still scrolling the log.",

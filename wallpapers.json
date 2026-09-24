@@ -53,32 +53,6 @@
       "downloadName": "ghost-city_loop_4k.mp4"
     },
     {
-      "slug": "last-signal",
-      "title": "Last Signal",
-      "subtitle": "A hilltop dish listening to a world that went quiet long ago.",
-      "duration": "10s",
-      "resolution": "3840 × 2160",
-      "size": "0.3 MB",
-      "accent": "#ff8a4a",
-      "poster": "assets/wallpapers/last-signal/poster.jpg",
-      "preview": "assets/wallpapers/last-signal/preview.mp4",
-      "download": "assets/wallpapers/last-signal/last-signal_loop_4k.mp4",
-      "downloadName": "last-signal_loop_4k.mp4"
-    },
-    {
-      "slug": "down-deep",
-      "title": "Down Deep",
-      "subtitle": "The machine hall below the world — one swinging lamp, cold steam, gauges that no longer matter.",
-      "duration": "10s",
-      "resolution": "3840 × 2160",
-      "size": "0.5 MB",
-      "accent": "#ffb45a",
-      "poster": "assets/wallpapers/down-deep/poster.jpg",
-      "preview": "assets/wallpapers/down-deep/preview.mp4",
-      "download": "assets/wallpapers/down-deep/down-deep_loop_4k.mp4",
-      "downloadName": "down-deep_loop_4k.mp4"
-    },
-    {
       "slug": "the-boneyard",
       "title": "The Boneyard",
       "subtitle": "Where the machines came to die. One still keeps its amber eye open.",
@@ -90,19 +64,6 @@
       "preview": "assets/wallpapers/the-boneyard/preview.mp4",
       "download": "assets/wallpapers/the-boneyard/the-boneyard_loop_4k.mp4",
       "downloadName": "the-boneyard_loop_4k.mp4"
-    },
-    {
-      "slug": "black-sun",
-      "title": "Black Sun",
-      "subtitle": "An eclipsed sun over the ruins, ash falling like the last snow.",
-      "duration": "10s",
-      "resolution": "3840 × 2160",
-      "size": "0.4 MB",
-      "accent": "#c23b3b",
-      "poster": "assets/wallpapers/black-sun/poster.jpg",
-      "preview": "assets/wallpapers/black-sun/preview.mp4",
-      "download": "assets/wallpapers/black-sun/black-sun_loop_4k.mp4",
-      "downloadName": "black-sun_loop_4k.mp4"
     },
     {
       "slug": "orbital-window",
@@ -142,19 +103,6 @@
       "preview": "assets/wallpapers/watchtower/preview.mp4",
       "download": "assets/wallpapers/watchtower/watchtower_loop_4k.mp4",
       "downloadName": "watchtower_loop_4k.mp4"
-    },
-    {
-      "slug": "dead-grid",
-      "title": "Dead Grid",
-      "subtitle": "Pylons marching into the dark — and one arc of power that refuses to die.",
-      "duration": "10s",
-      "resolution": "3840 × 2160",
-      "size": "0.3 MB",
-      "accent": "#86b4ff",
-      "poster": "assets/wallpapers/dead-grid/poster.jpg",
-      "preview": "assets/wallpapers/dead-grid/preview.mp4",
-      "download": "assets/wallpapers/dead-grid/dead-grid_loop_4k.mp4",
-      "downloadName": "dead-grid_loop_4k.mp4"
     }
   ]
 }

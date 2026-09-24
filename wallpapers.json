@@ -1,0 +1,30 @@
+{
+  "wallpapers": [
+    {
+      "slug": "halloween-diorama",
+      "title": "Halloween Diorama",
+      "subtitle": "A rainy Halloween night — glowing cottage windows, bonfire sparks, drifting bats, and a cat on the porch.",
+      "duration": "10s",
+      "resolution": "3840 × 2160",
+      "size": "3.4 MB",
+      "accent": "#ff9e2c",
+      "poster": "assets/wallpapers/halloween-diorama/poster.jpg",
+      "preview": "assets/wallpapers/halloween-diorama/preview.mp4",
+      "download": "assets/wallpapers/halloween-diorama/halloween_lofi_loop_4k.mp4",
+      "downloadName": "halloween_lofi_loop_4k.mp4"
+    },
+    {
+      "slug": "silo-the-view",
+      "title": "Silo — The View",
+      "subtitle": "The top-floor cafeteria at night. Outside the great window: a cold dead world, and the question — is it safe out there?",
+      "duration": "20s",
+      "resolution": "3840 × 2160",
+      "size": "1.4 MB",
+      "accent": "#9fb0c0",
+      "poster": "assets/wallpapers/silo-the-view/poster.jpg",
+      "preview": "assets/wallpapers/silo-the-view/preview.mp4",
+      "download": "assets/wallpapers/silo-the-view/silo_the_view_loop_4k.mp4",
+      "downloadName": "silo_the_view_loop_4k.mp4"
+    }
+  ]
+}

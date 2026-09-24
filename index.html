@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LiveWall — Live wallpapers for Mac</title>
+<meta name="description" content="A growing collection of hand-crafted 4K pixel-art loops for your Mac. Preview each one on a Mac desktop and download free in 4K.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="LiveWall — Live wallpapers for Mac">
+<meta property="og:description" content="Free 4K pixel-art wallpapers. Silent, seamless loops. Preview on a Mac desktop, download in 4K.">
+<meta property="og:image" content="assets/wallpapers/halloween-diorama/poster.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="LiveWall">
+    <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+      <defs>
+        <linearGradient id="bm-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#232338"/><stop offset="1" stop-color="#0b0b12"/></linearGradient>
+        <linearGradient id="bm-sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffc46b"/><stop offset="1" stop-color="#ff8a1e"/></linearGradient>
+      </defs>
+      <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bm-bg)"/>
+      <rect x="2.5" y="2.5" width="59" height="59" rx="14.5" fill="none" stroke="#fff" stroke-opacity=".14"/>
+      <circle cx="32" cy="32" r="17" fill="url(#bm-sun)"/>
+      <polygon points="27.5,24 40.5,32 27.5,40" fill="#0b0b12"/>
+    </svg>
+    <span>LiveWall</span>
+  </a>
+  <nav class="nav-links" aria-label="Main">
+    <a href="#collection">Collection</a>
+    <a href="https://github.com/mohindpa/Livewallmac" target="_blank" rel="noopener">GitHub</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="glow glow-a" aria-hidden="true"></div>
+    <div class="glow glow-b" aria-hidden="true"></div>
+    <h1 class="hero-title">Live wallpapers<span class="dim"> for&nbsp;Mac.</span></h1>
+    <p class="hero-sub">Hand-crafted 4K loops for your desktop — silent, seamless, and free.<br class="br-wide"> Preview each one on a Mac desktop, then take it home.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#collection">Browse the collection</a>
+      <button class="btn btn-glass" id="heroPreview" type="button">Watch a preview</button>
+    </div>
+    <p class="hero-note">4K · seamless loops · silent · free downloads</p>
+  </section>
+
+  <section class="collection" id="collection">
+    <div class="sec-head reveal">
+      <h2>The collection</h2>
+      <p class="sec-meta" id="collectionMeta"></p>
+    </div>
+    <div class="grid" id="grid"></div>
+    <p class="grid-note reveal">More loops on the way — this collection grows.</p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="foot-top">
+    <div class="foot-brand">
+      <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+        <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bm-bg)"/>
+        <rect x="2.5" y="2.5" width="59" height="59" rx="14.5" fill="none" stroke="#fff" stroke-opacity=".14"/>
+        <circle cx="32" cy="32" r="17" fill="url(#bm-sun)"/>
+        <polygon points="27.5,24 40.5,32 27.5,40" fill="#0b0b12"/>
+      </svg>
+      <span>LiveWall</span>
+    </div>
+    <nav class="foot-links" aria-label="Footer">
+      <a href="#collection">Collection</a>
+      <a href="https://github.com/mohindpa/Livewallmac" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+  <p class="foot-fine">Wallpapers are free for personal use. © <span id="year"></span> LiveWall.</p>
+</footer>
+
+<!-- ══ Fullscreen macOS desktop preview ══ -->
+<div class="pv" id="pv" hidden>
+  <div class="pv-desktop" id="pvDesktop">
+    <div class="pv-videos" id="pvVideos" aria-hidden="true"></div>
+
+    <div class="pv-ui" id="pvUI" aria-hidden="true">
+      <div class="menubar">
+        <div class="mb-left">
+          <span class="mb-item mb-apple">
+            <svg viewBox="0 0 16 16" width="14" height="16" fill="currentColor"><path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/></svg>
+          </span>
+          <span class="mb-item mb-app">Finder</span>
+          <span class="mb-item mb-menu">File</span>
+          <span class="mb-item mb-menu">Edit</span>
+          <span class="mb-item mb-menu">View</span>
+          <span class="mb-item mb-menu">Go</span>
+          <span class="mb-item mb-menu">Window</span>
+          <span class="mb-item mb-menu">Help</span>
+        </div>
+        <div class="mb-right">
+          <span class="mb-item mb-ico mb-battery" title="Battery">
+            <span class="mb-batt-pct">100%</span>
+            <svg viewBox="0 0 25 12" width="22" height="11">
+              <rect x="0.5" y="0.5" width="21" height="11" rx="3.4" fill="none" stroke="currentColor" stroke-opacity=".5"/>
+              <rect x="2" y="2" width="18" height="8" rx="1.9" fill="currentColor"/>
+              <path d="M23.4 4.2v3.6a2 2 0 0 0 0-3.6Z" fill="currentColor" fill-opacity=".5"/>
+            </svg>
+          </span>
+          <span class="mb-item mb-ico" title="Wi-Fi">
+            <svg viewBox="0 0 18 13" width="16" height="12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
+              <path d="M1.6 4.6a11.6 11.6 0 0 1 14.8 0"/>
+              <path d="M4.4 7.5a7.4 7.4 0 0 1 9.2 0"/>
+              <path d="M7.1 10.2a3.2 3.2 0 0 1 3.8 0"/>
+            </svg>
+          </span>
+          <span class="mb-item mb-ico mb-search" title="Spotlight">
+            <svg viewBox="0 0 15 15" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+              <circle cx="6.3" cy="6.3" r="4.7"/>
+              <path d="m9.9 9.9 3.7 3.7"/>
+            </svg>
+          </span>
+          <span class="mb-item mb-ico mb-cc" title="Control Center">
+            <svg viewBox="0 0 17 17" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.25">
+              <rect x="1" y="3.2" width="15" height="4.3" rx="2.15"/>
+              <circle cx="12.2" cy="5.35" r="1.5" fill="currentColor" stroke="none"/>
+              <rect x="1" y="9.5" width="15" height="4.3" rx="2.15"/>
+              <circle cx="4.8" cy="11.65" r="1.5" fill="currentColor" stroke="none"/>
+            </svg>
+          </span>
+          <span class="mb-item mb-clock" id="mbClock"></span>
+        </div>
+      </div>
+
+      <div class="desk-icons">
+        <button class="dicon" type="button" id="diDrive">
+          <img src="assets/macos/desktop/macintosh-hd.png" alt="" draggable="false">
+          <span>Macintosh&nbsp;HD</span>
+        </button>
+        <button class="dicon" type="button" id="diFile" title="Double-click to download">
+          <img src="assets/macos/desktop/movie.png" alt="" draggable="false">
+          <span id="diFileName"></span>
+        </button>
+      </div>
+
+      <div class="dock" id="dock" aria-hidden="true"></div>
+    </div>
+  </div>
+
+  <div class="pv-bar" id="pvBar">
+    <div class="pvb-group">
+      <button class="pv-ico" id="pvPrev" aria-label="Previous wallpaper">
+        <svg viewBox="0 0 9 14" width="9" height="13" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7.4 1.4 2 7l5.4 5.6"/></svg>
+      </button>
+      <div class="pvb-title">
+        <span class="pw-dot" id="pvDot"></span>
+        <span class="pw-name" id="pvName"></span>
+        <span class="pw-count" id="pvCount"></span>
+      </div>
+      <button class="pv-ico" id="pvNext" aria-label="Next wallpaper">
+        <svg viewBox="0 0 9 14" width="9" height="13" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1.6 1.4 7 7l-5.4 5.6"/></svg>
+      </button>
+    </div>
+    <span class="pvb-sep" aria-hidden="true"></span>
+    <a class="btn btn-primary btn-sm" id="pvDownload" download>
+      <svg viewBox="0 0 14 15" width="13" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 1.2v8.4"/><path d="M3.7 6.4 7 9.7l3.3-3.3"/><path d="M1.4 13.6h11.2"/></svg>
+      <span>Download 4K</span>
+    </a>
+    <button class="btn btn-glass btn-sm" id="pvHideUI" type="button">
+      <svg viewBox="0 0 16 12" width="15" height="11" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M1 6s2.6-4.6 7-4.6S15 6 15 6s-2.6 4.6-7 4.6S1 6 1 6Z"/><circle cx="8" cy="6" r="1.9"/></svg>
+      <span id="pvHideLabel">Hide interface</span>
+    </button>
+    <button class="pv-close" id="pvClose" aria-label="Close preview">
+      <svg viewBox="0 0 11 11" width="11" height="11" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="m1 1 9 9M10 1l-9 9"/></svg>
+    </button>
+  </div>
+
+  <p class="pv-hint" id="pvHint">esc to exit&ensp;·&ensp;← → to switch wallpaper&ensp;·&ensp;double-click the file icon to download</p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

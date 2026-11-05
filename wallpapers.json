@@ -51,6 +51,71 @@
       "preview": "assets/wallpapers/watchtower/preview.mp4",
       "download": "assets/wallpapers/watchtower/watchtower_loop_4k.mp4",
       "downloadName": "watchtower_loop_4k.mp4"
+    },
+    {
+      "slug": "grok",
+      "title": "Grok — Cosmic Rebel",
+      "subtitle": "A giant X monolith turning over a violet nebula, dishes listening, a rocket clawing off the ridge.",
+      "duration": "20s",
+      "resolution": "3840 × 2160",
+      "size": "2.6 MB",
+      "accent": "#c26bff",
+      "poster": "assets/wallpapers/grok/poster.jpg",
+      "preview": "assets/wallpapers/grok/preview.mp4",
+      "download": "assets/wallpapers/grok/grok_loop_4k.mp4",
+      "downloadName": "grok_loop_4k.mp4"
+    },
+    {
+      "slug": "claude",
+      "title": "Claude — The Warm Study",
+      "subtitle": "A quiet observatory desk at dusk: brass lamp, books, sleeping cat, a starburst on the wall.",
+      "duration": "20s",
+      "resolution": "3840 × 2160",
+      "size": "1.1 MB",
+      "accent": "#d97757",
+      "poster": "assets/wallpapers/claude/poster.jpg",
+      "preview": "assets/wallpapers/claude/preview.mp4",
+      "download": "assets/wallpapers/claude/claude_loop_4k.mp4",
+      "downloadName": "claude_loop_4k.mp4"
+    },
+    {
+      "slug": "openai",
+      "title": "OpenAI — Emerald Cathedral",
+      "subtitle": "A dark data cathedral with an emerald bloom turning above a mirrored floor.",
+      "duration": "20s",
+      "resolution": "3840 × 2160",
+      "size": "3.2 MB",
+      "accent": "#10a37f",
+      "poster": "assets/wallpapers/openai/poster.jpg",
+      "preview": "assets/wallpapers/openai/preview.mp4",
+      "download": "assets/wallpapers/openai/openai_loop_4k.mp4",
+      "downloadName": "openai_loop_4k.mp4"
+    },
+    {
+      "slug": "deepseek",
+      "title": "DeepSeek — The Abyss Whale",
+      "subtitle": "A glowing whale drifting through a trench of server-coral, sonar rings fading into the dark.",
+      "duration": "20s",
+      "resolution": "3840 × 2160",
+      "size": "1.5 MB",
+      "accent": "#4d6bfe",
+      "poster": "assets/wallpapers/deepseek/poster.jpg",
+      "preview": "assets/wallpapers/deepseek/preview.mp4",
+      "download": "assets/wallpapers/deepseek/deepseek_loop_4k.mp4",
+      "downloadName": "deepseek_loop_4k.mp4"
+    },
+    {
+      "slug": "qwen",
+      "title": "Qwen — Violet Gateway",
+      "subtitle": "A giant holographic Q over a violet plaza, data ribbons spiraling, lanterns burning gold.",
+      "duration": "20s",
+      "resolution": "3840 × 2160",
+      "size": "3.3 MB",
+      "accent": "#a855f7",
+      "poster": "assets/wallpapers/qwen/poster.jpg",
+      "preview": "assets/wallpapers/qwen/preview.mp4",
+      "download": "assets/wallpapers/qwen/qwen_loop_4k.mp4",
+      "downloadName": "qwen_loop_4k.mp4"
     }
   ]
 }
